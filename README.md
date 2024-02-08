@@ -10,67 +10,64 @@ dotnet new -i "Amazon.Lambda.Templates::*"
 dotnet new list --author AWS  
 ```
 
-Template Name                  Short Name                                    Language  Tags
------------------------------  --------------------------------------------  --------  --------------------------------
-Empty Top-level Function       lambda.EmptyTopLevelFunction                  [C#]      AWS/Lambda/Serverless
 
-Lambda Annotations Framewo...  serverless.Annotations                        [C#]      AWS/Lambda/Serverless
+lambda.EmptyTopLevelFunction
 
-Lambda ASP.NET Core Minima...  serverless.AspNetCoreMinimalAPI               [C#]      AWS/Lambda/Serverless
+serverless.Annotations
 
-Lambda ASP.NET Core Web API    serverless.AspNetCoreWebAPI                   [C#],F#   AWS/Lambda/Serverless
+serverless.AspNetCoreMinimalAPI
 
-Lambda ASP.NET Core Web AP...  serverless.image.AspNetCoreWebAPI             [C#],F#   AWS/Lambda/Serverless
+serverless.AspNetCoreWebAPI
 
-Lambda ASP.NET Core Web Ap...  serverless.AspNetCoreWebApp                   [C#]      AWS/Lambda/Serverless
+serverless.image.AspNetCoreWebAPI
 
-Lambda Custom Runtime Func...  lambda.CustomRuntimeFunction                  [C#],F#   AWS/Lambda/Function
+serverless.AspNetCoreWebApp
 
-Lambda Detect Image Labels     lambda.DetectImageLabels                      [C#],F#   AWS/Lambda/Function
+lambda.CustomRuntimeFunction
 
-Lambda Empty Function          lambda.EmptyFunction                          [C#],F#   AWS/Lambda/Function
+lambda.DetectImageLabels
 
-Lambda Empty Function (.NE...  lambda.image.EmptyFunction                    [C#],F#   AWS/Lambda/Function
+lambda.EmptyFunction
 
-Lambda Empty Serverless        serverless.EmptyServerless                    [C#],F#   AWS/Lambda/Serverless
+lambda.image.EmptyFunction
 
-Lambda Empty Serverless (....  serverless.image.EmptyServerless              [C#],F#   AWS/Lambda/Serverless
+serverless.EmptyServerless
 
-Lambda Function project co...  lambda.NativeAOT                              [C#],F#   AWS/Lambda/Function
+serverless.image.EmptyServerless
 
-Lambda Function with Power...  lambda.Powertools                             [C#]      AWS/Lambda/Function/Powertools
+lambda.NativeAOT
 
-Lambda Giraffe Web App         serverless.Giraffe                            F#        AWS/Lambda/Serverless
+lambda.Powertools
 
-Lambda Serverless with Pow...  serverless.Powertools                         [C#]      AWS/Lambda/Serverless/Powertools
+serverless.Powertools
 
-Lambda Simple Application ...  lambda.SimpleApplicationLoadBalancerFunction  [C#]      AWS/Lambda/Function
+lambda.SimpleApplicationLoadBalancerFunction
 
-Lambda Simple DynamoDB Fun...  lambda.DynamoDB                               [C#],F#   AWS/Lambda/Function
+lambda.DynamoDB
 
-Lambda Simple Kinesis Fire...  lambda.KinesisFirehose                        [C#]      AWS/Lambda/Function
+lambda.KinesisFirehose
 
-Lambda Simple Kinesis Func...  lambda.Kinesis                                [C#],F#   AWS/Lambda/Function
+lambda.Kinesis
 
-Lambda Simple S3 Function      lambda.S3                                     [C#],F#   AWS/Lambda/Function
+lambda.S3
 
-Lambda Simple SNS Function     lambda.SNS                                    [C#]      AWS/Lambda/Function
+lambda.SNS
 
-Lambda Simple SQS Function     lambda.SQS                                    [C#]      AWS/Lambda/Function
+lambda.SQS
 
-Lex Book Trip Sample           lambda.LexBookTripSample                      [C#]      AWS/Lambda/Function
+lambda.LexBookTripSample
 
-Order Flowers Chatbot Tuto...  lambda.OrderFlowersChatbot                    [C#]      AWS/Lambda/Function
+lambda.OrderFlowersChatbot
 
-Serverless Detect Image La...  serverless.DetectImageLabels                  [C#],F#   AWS/Lambda/Serverless
+serverless.DetectImageLabels
 
-Serverless project configu...  serverless.NativeAOT                          [C#],F#   AWS/Lambda/Serverless
+serverless.NativeAOT
 
-Serverless Simple S3 Function  serverless.S3                                 [C#],F#   AWS/Lambda/Serverless
+serverless.S3
 
-Serverless WebSocket API       serverless.WebSocketAPI                       [C#]      AWS/Lambda/Serverless
+serverless.WebSocketAPI
 
-Step Functions Hello World     serverless.StepFunctionsHelloWorld            [C#],F#   AWS/Lambda/Serverless
+serverless.StepFunctionsHelloWorld
 
 To get details about a template, you can use the help command.
 
